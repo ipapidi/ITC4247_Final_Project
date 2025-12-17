@@ -85,7 +85,7 @@ docker compose -f docker-compose.yml --compatibility down
 
 For detailed fuzzer documentation, see [FUZZER_README.md](FUZZER_README.md)
 
-## Troubleshooting
+## ⚠️ Troubleshooting
 
 **Port already in use:**
 - Check what's using the port: `lsof -i :8888` (Linux/macOS) or `netstat -ano | findstr :8888` (Windows)
